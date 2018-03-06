@@ -5,12 +5,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.asus_pc.menuborder.MainActivity">
 
-    <Button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dkhfsjdhf"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <!--<Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hola"
         android:theme="@style/RaisedButtonDark"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/like"
+        android:theme="@style/RaisedButtonDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="like"
+        android:theme="@style/RaisedButtonDark"
+        android:drawableLeft="@drawable/like"
+        android:drawablePadding="5dp"/>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" -->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:src="@drawable/like"-->
+        <!--android:layout_margin="16dp"/>-->
+
+
 
 </LinearLayout>
