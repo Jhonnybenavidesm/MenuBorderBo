@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MenuBorder</string>
+    <string name="itm_str_options">opciones</string>
+    <string name="itm_str_close">cerrar</string>
+    <string name="itm_str_ir">ir</string>
 </resources>
